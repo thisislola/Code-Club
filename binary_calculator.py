@@ -11,7 +11,7 @@ def BinaryCalc():
 
     try:
         decimal_value = 0  # Set to 0 to change values
-        binary_input = input('Binary number: ')
+        binary_input = input("Binary number: ")
         if not re.match("[0-1]", binary_input):     # It must match 0 or 1
             print("Only 1s and 0s allowed.")
             sys.exit()
